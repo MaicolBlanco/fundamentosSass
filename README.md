@@ -8,3 +8,10 @@ Proyecto para aprender a usar el Preprocesador tipo Sass
 
 - En este proyecto vamos aprender a usar Sass y como anteriores repositorios que me sirva de guia para futuros proyectos y la idea es tomar estos
   mismos proyecto y mejorarlos o desbaratarlos y volverlos hacer
+
+- Para heredar styles dentro de css lo hacemos con la palabra @extend y despues los estilos qua vamos a heredar o reutilizar
+- Podemos tambien hacer usos de @mixin:
+                                      Lo declaramos en la parte superior como @mixin seguido de un nombre como una variable
+                                      podemos agragarle argumentos y cuando se llamen poder recibirlos como parametros
+                                      y para poder usarlo usamos la palabra @include y el nombre de variable que asignamos
+                                      esto es como una función, nos ayuda a no repetir los estilos
